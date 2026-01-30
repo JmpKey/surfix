@@ -8,8 +8,8 @@ Not really. A set of simple template scripts that should return the user experie
 seamonkey-proxy is a standard pac for automatic proxy configuration. In which you can enter the SOCKS5 and domains that it will proxy. To do this, in the URL for automatic configuration of your browser, write the path to pac: file:///your _ path/seamonkey-proxy.pac
 
 # dpi-off
-The script starts two processes, when one process crashes, the other also ends. This is enough to run the program along with the anti-DPI solution by simply clicking on the script file.
-Unix-like: Replace line 17 with your anti-DPI solution and line 22 with your program.
+The script starts two processes, when one process crashes, the other also ends. This is enough to run the program along with the anti-DPI solution by simply clicking on the script file.<br>
+Unix-like: Replace line 17 with your anti-DPI solution and line 22 with your program.<br>
 Windows: Change the paths to your dpi-off.bat (lines 5, 8, 12, 15, 20, 23). And write down your path to the bat-file in line 2 start_bat.vbs
 
 # Good links
