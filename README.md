@@ -12,6 +12,10 @@ The script starts two processes, when one process crashes, the other also ends. 
 Unix-like: Replace line 17 with your anti-DPI solution and line 22 with your program.<br>
 Windows: Change the paths to your dpi-off.bat (lines 5, 8, 12, 15, 20, 23). And write down your path to the bat-file in line 2 start_bat.vbs
 
+# visit
+Script to get the last address for a given substring from your address list.<br>
+Change 5, 6, 7 lines for your lists and 8 lines for the substring you want to find.
+
 # Good links
 1. List [MTProto, SOCKS5](https://github.com/Argh94/Proxy-List).
 2. List [SOCKS5](https://github.com/monosans/proxy-list/blob/main/proxies/socks5.txt).
