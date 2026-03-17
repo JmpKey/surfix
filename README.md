@@ -13,8 +13,11 @@ Unix-like: Replace line 17 with your anti-DPI solution and line 22 with your pro
 Windows: Change the paths to your dpi-off.bat (lines 5, 8, 12, 15, 20, 23). And write down your path to the bat-file in line 2 start_bat.vbs
 
 # visit
-Script to get the last address for a given substring from your address list.<br>
-Change 5, 6, 7 lines for your lists and 8 lines for the substring you want to find.
+Script to get the address for a given substring from your address list.<br>
+Example:<br>
+```
+python visit.py -r <URL repo> -f <path to the read file> -s <search substring>
+```
 
 # Good links
 1. List [MTProto, SOCKS5](https://github.com/Argh94/Proxy-List).
